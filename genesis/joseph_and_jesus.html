@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>요셉과 예수 그리스도의 생애 비교 표</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    body { font-family: 'Pretendard', sans-serif; background-color: #f8f9fa; padding: 40px; display: flex; flex-direction: column; align-items: center; }
+    .btn-download { margin-bottom: 20px; padding: 12px 24px; font-size: 16px; font-weight: bold; color: #fff; background-color: #1a73e8; border: none; border-radius: 6px; cursor: pointer; }
+    #capture-area { background-color: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 900px; }
+    h2 { text-align: center; color: #1a252c; margin-bottom: 8px; }
+    p.subtitle { text-align: center; color: #5f6368; font-size: 14px; margin-bottom: 25px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { border: 1px solid #e0e0e0; padding: 12px 14px; text-align: left; line-height: 1.5; }
+    th { background-color: #2c3e50; color: #ffffff; font-weight: 600; text-align: center; }
+    tr:nth-child(even) { background-color: #f8f9fa; }
+    .col-num { width: 6%; text-align: center; font-weight: bold; }
+    .col-type { width: 22%; font-weight: bold; color: #2c3e50; }
+    .col-joseph { width: 36%; }
+    .col-jesus { width: 36%; }
+    .ref { font-size: 12px; color: #70757a; display: block; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <button class="btn-download" onclick="downloadImage()">📷 표 이미지(PNG) 다운로드</button>
+  <div id="capture-area">
+    <h2>요셉의 생애와 예수 그리스도의 생애 비교</h2>
+    <p class="subtitle">구약의 예표(Type)와 신약의 성취(Fulfillment)</p>
+    <table>
+      <thead>
+        <tr>
+          <th class="col-num">#</th>
+          <th class="col-type">구분</th>
+          <th class="col-joseph">요셉의 생애 (구약의 예표)</th>
+          <th class="col-jesus">예수 그리스도의 생애 (신약의 성취)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="col-num">1</td><td class="col-type">사랑받는 아들</td><td>아버지 야곱의 특별한 사랑을 받음<span class="ref">(창세기 37:3)</span></td><td>아버지 하나님이 사랑하시는 독생자<span class="ref">(마태복음 3:17)</span></td></tr>
+        <tr><td class="col-num">2</td><td class="col-type">형제들에게 보냄받음</td><td>아버지의 명을 따라 형들의 안부를 확인하러 감<span class="ref">(창세기 37:13-14)</span></td><td>아버지의 명을 따라 자기 백성(유대인)에게 오심<span class="ref">(요한복음 3:16)</span></td></tr>
+        <tr><td class="col-num">3</td><td class="col-type">배척과 미움</td><td>형들이 요셉을 미워하여 죽이기로 모의함<span class="ref">(창세기 37:4, 18)</span></td><td>자기 백성과 종교 지도자들에게 배척당하심<span class="ref">(요한복음 1:11)</span></td></tr>
+        <tr><td class="col-num">4</td><td class="col-type">은전 몇 개에 팔림</td><td>유다의 제안으로 은 20개에 상인에게 팔림<span class="ref">(창세기 37:26-28)</span></td><td>가롯 유다의 배신으로 은 30개에 팔리심<span class="ref">(마태복음 26:14-15)</span></td></tr>
+        <tr><td class="col-num">5</td><td class="col-type">죄 없이 모함을 받음</td><td>거짓 모함으로 아무 죄 없이 감옥에 갇힘<span class="ref">(창세기 39:19-20)</span></td><td>거짓 증언과 판결로 죄 없이 십자가 형을 받으심<span class="ref">(마태복음 26:59-60)</span></td></tr>
+        <tr><td class="col-num">6</td><td class="col-type">두 죄수 사이에 놓임</td><td>감옥에서 두 관원장(술/빵) 사이에 갇힘<span class="ref">(창세기 40:2-3)</span></td><td>십자가에서 두 강도 사이에 못 박히심<span class="ref">(누가복음 23:32-33)</span></td></tr>
+        <tr><td class="col-num">7</td><td class="col-type">생명과 사망의 갈림</td><td>한 사람은 복직되어 살고, 한 사람은 죽음<span class="ref">(창세기 40:21-22)</span></td><td>한 강도는 구원받고, 한 강도는 멸망함<span class="ref">(누가복음 23:39-43)</span></td></tr>
+        <tr><td class="col-num">8</td><td class="col-type">고난 뒤의 높여짐</td><td>30세에 감옥에서 나와 이집트 총리로 높여짐<span class="ref">(창세기 41:40-46)</span></td><td>30세 공생애 시작, 부활 후 하나님 우편에 높여지심<span class="ref">(빌립보서 2:9-11)</span></td></tr>
+        <tr><td class="col-num">9</td><td class="col-type">이방인 신부를 맞이함</td><td>타국에서 이방 여인 아스낫과 결합함<span class="ref">(창세기 41:45)</span></td><td>유대인의 배척 후 이방인 중심의 교회를 신부로 삼으심<span class="ref">(에베소서 5:31-32)</span></td></tr>
+        <tr><td class="col-num">10</td><td class="col-type">세상의 구원자</td><td>대기근 속에서 양식을 나누어주어 목숨을 구함<span class="ref">(창세기 41:56-57)</span></td><td>영적 기근 속에서 생명의 빵으로 세상을 구원하심<span class="ref">(요한복음 6:35)</span></td></tr>
+        <tr><td class="col-num">11</td><td class="col-type">형제들의 용서와 회복</td><td>자기를 판 형제들에게 자신을 드러내고 용서함<span class="ref">(창세기 45:1-5)</span></td><td>재림 때 회개하는 이스라엘 백성을 용서하고 영접하심<span class="ref">(로마서 11:25-26)</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <script>
+    function downloadImage() {
+      const area = document.getElementById('capture-area');
+      html2canvas(area, { scale: 2 }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = '요셉_예수님_생애_비교.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+  </script>
+</body>
+</html>
